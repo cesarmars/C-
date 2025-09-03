@@ -1,5 +1,5 @@
 #include <stdio.h>
-// string length manual function
+// string length function
 int findLen(char *s) {
 
 	int i = 0;
@@ -9,13 +9,13 @@ int findLen(char *s) {
 }
 
 int main(int argc, char *argv[]) {
-	char str[] = "hello world";
-	char letter = 'a';
+	char str[] = "hello world"; // string
+	char letter = 'a'; // character
 
 	printf("String: %s\n", str);
 	// Does not include '\0' -> ['h','e','l','l','O',' ','w','o','r','l','d','\0'] 
-	printf("Manual string length finder: %d\n", findLen(str)); 
-	printf("My character: %c\n", letter);	
+	printf("Manual string length finder: %d\n", findLen(str)); // prints 11
+	printf("My character: %c\n", letter); // prints out character 'a'
 
 	return 0;
 
