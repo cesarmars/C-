@@ -14,7 +14,7 @@ int main () {
 	printf("Value: %d\n", value);
 
 	int x = 2; // int variable
-	int *pX;  // pointer 
+	int *pX;  // pointer variable that stores the variable x using an address	
 	pX = &x; // pointer that stores the value 2 has an address
 
 	printf("Value of x: %d\n", x); // prints out the value 2

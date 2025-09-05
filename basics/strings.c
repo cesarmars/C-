@@ -16,6 +16,7 @@ int main(int argc, char *argv[]) {
 	// Does not include '\0' -> ['h','e','l','l','O',' ','w','o','r','l','d','\0'] 
 	printf("Manual string length finder: %d\n", findLen(str)); // prints 11
 	printf("My character: %c\n", letter); // prints out character 'a'
+	
 
 	return 0;
 
