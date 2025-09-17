@@ -28,8 +28,9 @@ bool check_length(const char *password) {
 /* Returns true if LETTER is in the range [LOWER, UPPER], false otherwise */
 bool check_range(char letter, char lower, char upper) {
     bool is_in_range = (letter > lower && letter < upper);
+    if (is_in_range) return true;
     return is_in_range;
-}
+    }
 
 /* Returns true if PASSWORD contains at least one upper case letter, false otherwise */
 bool check_upper(const char *password) {
@@ -58,7 +59,7 @@ bool check_lower(const char *password) {
 /* Returns true if PASSWORD contains at least one number, false otherwise */
 bool check_number(const char *password) {
     while (*password != '\0') {
-        if (check_range(*password, 0, 9)) {
+        if (check_range(*password, '0', '9')) {
             return true;
         }
         ++password;
