@@ -1,33 +1,13 @@
 #include <stdio.h>
-// pointer x points to the value 10
-// which stored in the ampersand address
-void addOne(int *x) {
-	 *x = *x + 1;
-}
+#include <string.h>
 
 int main () {
-	int value = 10;
-	// gives the variable an address
-	// keeps it in memory.
-	addOne(&value); 
-	// prints out the value 11
-	printf("Value: %d\n", value);
+	char array[] = "hello";  // -> ['h','e','l','l','o','\0'], the length of the string "hello" is 5, not including the null terminator.
 
-	int x = 2; // int variable
-	int *pX;  // pointer variable that stores the variable x using an address	
-	pX = &x; // pointer that stores the value 2 has an address
+	printf("Size of the array:%lu\n", strlen(array));
 
-	printf("Value of x: %d\n", x); // prints out the value 2
-	printf("The address of x: %p\n", &x); // address of x
-	printf("The address via pointer -> pX: %p\n", pX); // the same as above (pX = &x)
-	printf("Value of x via pointer -> *pX: %d\n", *pX); // prints out the value 2
-
-	*pX = *pX + 2; // updates (int value) and (int *pX) to 2 + 2 = 4
-
-	printf("Value of new x: %d\n", x); // prints out the value 4
-	printf("Value of new x via pointer -> *pX: %d\n", *pX); // prints out the value 4
-	printf("The address of x: %p\n", &x); // same address
-	printf("The address of x via pointer -> pX: %p\n", pX); // same address
+	printf("First element of the array: %c\n", array[4]);
+	
 
 	return 0;
 

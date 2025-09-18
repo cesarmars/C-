@@ -3,7 +3,7 @@
 int main() {
 
 	char word[]= "Hello"; // a string -> [H,e,l,l,o,\0 ], length is 5
-	char *pWord = word; // pointer to the array of characters;
+	char *pWord = word; // pointer to the array of characters, no need for & symbol bc it is an array
 
 	printf("String: %s\n", word); // prints out the string "Hello"
 	printf("Pointer to the first element of the array: %c\n", *pWord); // pointer points to the first character of the array -> 'H'

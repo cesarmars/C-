@@ -25,7 +25,7 @@ void printStudent(struct Student x) {
 }
 
 int main() {
-	struct Student user = makeStudent("Jeff", 15, 3.4, "LA High");
+	struct Student user = makeStudent("Jeff", 15, 3.4, "Wildcat High");
 	printStudent(user);
 	return 0;
 
