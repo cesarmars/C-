@@ -8,3 +8,6 @@
 	- Input: 90 -> Output: 117
 
 3. **Exercise 3**: Write a C program that checks two given integers and returns true if at least one of them is 30 or if their sum is 30. In other words, if either of the two integers is 30 or if their sum equals 30, the program will return true. 
+   - Input: (10, 7) -> Output: 0 (false)
+   - Input: (0, 30) -> Output: 1 (true)
+   - Input: (20, 10) -> Output: 1 (true)
