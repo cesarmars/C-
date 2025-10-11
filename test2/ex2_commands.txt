@@ -1,0 +1,18 @@
+# You should be editing this file for the Intro to GDB exercise of lab 2.
+# Make sure each command is on its own line
+# Lines starting with # are comments, feel free to add any to document your commands
+
+# Please add your commands below this line
+
+1. b main - declare
+2. run - initalize
+3. next * 4
+4. step * 2
+5. print password
+6. finish
+7. next
+8. step
+9. next * 2
+10. print meets_len_req
+11. print length
+12. q

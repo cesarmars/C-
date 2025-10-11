@@ -1,0 +1,18 @@
+# You should be editing this file for the More GDB exercise of lab 2.
+# Make sure each command is on its own line
+# Lines starting with # are comments, feel free to add any to document your commands
+
+# Please add your commands below this line
+
+1. b check_number
+2. run
+3. next
+4. step
+5. bt 
+6. break set -f pwd_checker.c -l 31 -c "letter == '0'"
+7. continue
+8. print letter
+9. print is_in_range
+10. print lower
+11. print upper
+12. q
