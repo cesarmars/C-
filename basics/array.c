@@ -21,11 +21,10 @@ int main() {
 
 	// A third way is using pointer arithmetic, where you assing a single pointer to the first element of the array, effiecient as manual indexing 
 	uint32_t arr[] = {2,33,200};
-	uint32_t *q = arr; // start the pointer at the first element of the array -> 2  at index 0, not necessary
 	
-	printf("Pointer to the first element %d and the address %p\n", *q, q);
-	printf("Pointer to the second element %d\n and the address %p\n", *(q + 1), q + 1);
-	printf("Pointer to the third element %d\n and the address %p\n", *(q + 2), q + 2);
+	printf("Pointer to the first element %d and the address %p\n", *arr, arr);
+	printf("Pointer to the second element %d\n and the address %p\n", *(arr + 1), arr + 1);
+	printf("Pointer to the third element %d\n and the address %p\n", *(arr + 2), arr + 2);
 	return 0;
 
 }
