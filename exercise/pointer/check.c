@@ -5,8 +5,7 @@
 int main() {
 	const char *name = "ceddar";
 	printf("name: %s\n", name);
-
-
+	
 	for(int i = 0; i < strlen(name); i++) {
 		for(int j = i + 1 ; j < strlen(name); j++) {
 			if (*(name + i) == *(name + j)) {
