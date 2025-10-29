@@ -1,2 +1,0 @@
-1. The function that occured the segfault is called "void ben"
-2. Line 15 caused the segfault
